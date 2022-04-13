@@ -1,0 +1,20 @@
+{
+	"name": "Ticket booker",
+	"description": "Trying out",
+	"version": "1.0",
+	"manifest_version": 3,
+	"permissions": ["activeTab", "scripting"],
+
+	"action": {
+		"default_popup": "landing.html",
+		"default_icon": "booking.png"
+	},
+	"commands": {
+		"_execute_action": {
+			"suggested_key": {
+				"default": "Ctrl+Shift+F"
+			},
+			"description": "Opens lading.html"
+		}
+	}
+}
